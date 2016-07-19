@@ -1,0 +1,14 @@
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\SpewspeakActualReal.exe.config
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\SpewspeakActualReal.exe
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\SpewspeakActualReal.pdb
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal.csprojResolveAssemblyReference.cache
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\App.g.cs
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal_MarkupCompile.cache
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal_MarkupCompile.lref
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal.g.resources
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal.Properties.Resources.resources
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal.csproj.GenerateResource.Cache
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal.exe
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal.pdb
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\View\MainWindow.g.cs
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\View\MainWindow.baml
