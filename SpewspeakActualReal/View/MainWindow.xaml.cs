@@ -23,6 +23,7 @@ namespace SpewspeakActualReal
         public MainWindow()
         {
             InitializeComponent();
+            this.inOutTextBox.Text = "Enter your text here.";
         }
     }
 }

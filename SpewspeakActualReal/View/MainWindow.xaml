@@ -11,7 +11,7 @@
         <ViewModel:MainWindowViewModel/>
     </Window.DataContext>
     <Grid>
-        <TextBox x:Name="inOutTextBox" Margin="10,10,10,60" TextWrapping="Wrap" Text="Enter your text here."/>
+        <TextBox x:Name="inOutTextBox" Margin="10,10,10,60" TextWrapping="Wrap" Text="{Binding Path=ConvertedResult, UpdateSourceTrigger=PropertyChanged}"/>
         <Button x:Name="smartifyButton" Content="Use the Best Words" Margin="0,0,13,10" Height="45" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="150" Command="{Binding SmartifyCommand}" CommandParameter="{Binding ElementName=inOutTextBox, Path=Text}"/>
 
     </Grid>

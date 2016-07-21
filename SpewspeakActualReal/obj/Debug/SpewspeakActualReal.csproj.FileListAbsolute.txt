@@ -12,3 +12,6 @@ c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\Sp
 c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\SpewspeakActualReal.pdb
 c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\View\MainWindow.g.cs
 c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\View\MainWindow.baml
+c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\WebsterThesaurusAPI.dll
+C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\WordRatingAPI.dll

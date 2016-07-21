@@ -1,18 +1,42 @@
-﻿using System;
+﻿using SpewspeakActualReal.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace SpewspeakActualReal.ViewModel
 {
     class MainWindowViewModel : INotifyPropertyChanged
     {
+        #region Members definition
+        private ICommand smartifyCommand;
+        public ICommand SmartifyCommand
+        {
+            get
+            {
+                if (smartifyCommand == null)
+                {
+                    smartifyCommand = new RelayCommand(sentence => { this.CallConvertSentence(sentence.ToString()); });
+                }
+                return smartifyCommand;
+            }
+        }
+
+        private string convertedResult;
+        public string ConvertedResult
+        {
+            get { return convertedResult; }
+            set { convertedResult = value; }
+        }
+        #endregion
+
         #region Constructors definition
         public MainWindowViewModel()
         {
-            
+           
         }
         #endregion
 
@@ -21,6 +45,12 @@ namespace SpewspeakActualReal.ViewModel
         #endregion
 
         #region Methods
+        private void CallConvertSentence(string sentence)
+        {
+            this.ConvertedResult = Conversion.ConvertSentence(sentence);
+            RaisePropertyChanged("ConvertedResult");
+        }
+
         private void RaisePropertyChanged(string propertyName)
         {
             PropertyChangedEventHandler handler = PropertyChanged;
