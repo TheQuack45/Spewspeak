@@ -32,6 +32,13 @@ namespace SpewspeakActualReal.ViewModel
             get { return convertedResult; }
             set { convertedResult = value; }
         }
+
+        private bool isConverting;
+        public bool IsConverting
+        {
+            get { return isConverting; }
+            set { isConverting = value; }
+        }
         #endregion
 
         #region Constructors definition
@@ -48,8 +55,14 @@ namespace SpewspeakActualReal.ViewModel
         #region Methods
         private void CallConvertSentence(string sentence)
         {
+            this.IsConverting = true;
+            RaisePropertyChanged("IsConverting");
+
             this.ConvertedResult = Conversion.ConvertSentence(sentence);
             RaisePropertyChanged("ConvertedResult");
+
+            this.IsConverting = false;
+            RaisePropertyChanged("IsConverting");
         }
 
         private void RaisePropertyChanged(string propertyName)

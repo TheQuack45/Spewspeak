@@ -11,8 +11,7 @@
         <ViewModel:MainWindowViewModel/>
     </Window.DataContext>
     <Grid>
-        <TextBox x:Name="inOutTextBox" Margin="10,10,10,60" TextWrapping="Wrap" Text="{Binding Path=ConvertedResult, UpdateSourceTrigger=PropertyChanged}" LostFocus="inOutTextBox_LostFocus" GotFocus="inOutTextBox_GotFocus"/>
+        <TextBox x:Name="inOutTextBox" Margin="10,10,10,60" TextWrapping="Wrap" IsReadOnly="{Binding Path=IsConverting, UpdateSourceTrigger=PropertyChanged}" Text="{Binding Path=ConvertedResult, UpdateSourceTrigger=PropertyChanged}" LostFocus="inOutTextBox_LostFocus" GotFocus="inOutTextBox_GotFocus"/>
         <Button x:Name="smartifyButton" Content="Use the Best Words" Margin="0,0,13,10" Height="45" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="150" Command="{Binding SmartifyCommand}" CommandParameter="{Binding ElementName=inOutTextBox, Path=Text}"/>
-
     </Grid>
 </Window>
