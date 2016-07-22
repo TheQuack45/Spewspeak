@@ -19,7 +19,8 @@ namespace SpewspeakActualReal.ViewModel
             {
                 if (smartifyCommand == null)
                 {
-                    smartifyCommand = new RelayCommand(sentence => { this.CallConvertSentence(sentence.ToString()); });
+                    //smartifyCommand = new RelayCommand(sentence => { this.CallConvertSentence(sentence.ToString()); });
+                    smartifyCommand = new AsyncDelegateCommand(sentence => { this.CallConvertSentence(sentence.ToString()); });
                 }
                 return smartifyCommand;
             }
