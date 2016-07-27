@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using WordRatingAPI;
 using WebsterThesaurusAPI;
 using System.Text.RegularExpressions;
+using NHunspell;
 
 namespace SpewspeakActualReal.Model
 {
@@ -67,6 +68,13 @@ namespace SpewspeakActualReal.Model
             }
 
             return mostComplexWord;
+        }
+
+        public static string MostComplexSynonymOffline(string word)
+        {
+            MyThes thesaurus = new MyThes(Properties.Resources.th_en_US_new);
+            //Hunspell hspell = new Hunspell(Properties.Resources.en_US_aff, Properties.Resources.en_US_dic);
+            
         }
         #endregion
     }

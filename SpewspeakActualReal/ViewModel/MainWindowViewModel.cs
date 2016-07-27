@@ -32,7 +32,7 @@ namespace SpewspeakActualReal.ViewModel
             get { return convertedResult; }
             set { convertedResult = value; }
         }
-
+        
         private bool isConverting;
         public bool IsConverting
         {
