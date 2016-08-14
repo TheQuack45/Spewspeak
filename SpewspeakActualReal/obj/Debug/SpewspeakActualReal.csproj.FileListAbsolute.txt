@@ -16,3 +16,8 @@ c:\users\thequack45\documents\visual studio 2015\Projects\SpewspeakActualReal\Sp
 C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\WebsterThesaurusAPI.dll
 C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\WordRatingAPI.dll
 C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\Hunspellx64.dll
+C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\Hunspellx86.dll
+C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\NHunspell.dll
+C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\WordNetDotNet.dll
+C:\Users\TheQuack45\Documents\Visual Studio 2015\Projects\SpewspeakActualReal\SpewspeakActualReal\bin\Debug\NHunspell.pdb
