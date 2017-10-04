@@ -13,7 +13,7 @@ namespace SpewspeakActualReal.Model
     static class Conversion
     {
         #region Members definition
-        public const string API_KEY = "69b8b0b3-2427-482c-86b2-3d6d83214f92";
+        public const string API_KEY = "";
 
         public static List<string> ReservedWords = new List<string>()
         {
